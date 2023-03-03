@@ -5,7 +5,7 @@ VisualStudioVersion = 17.5.33414.496
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QuEnterprises.com", "QuEnterprises.com\QuEnterprises.com.csproj", "{8DA8E806-DDEB-428D-BD5B-A59474153402}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DejaQu.com", "DejaQu.com\DejaQu.com.csproj", "{194D435C-6B2B-4775-98F0-A5C922121A4B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DejaQu.com", "DejaQu.com\DejaQu.com.csproj", "{194D435C-6B2B-4775-98F0-A5C922121A4B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

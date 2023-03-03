@@ -1,0 +1,332 @@
+﻿{
+  "sidebarMenu": [
+    {
+      "text": "Navigation",
+      "is_header": true
+    },
+    {
+      "controller": "Home",
+      "action": "Index",
+      "icon": "bi bi-cpu",
+      "text": "Dashboard"
+    },
+    {
+      "controller": "Analytics",
+      "action": "Index",
+      "icon": "bi bi-bar-chart",
+      "text": "Analytics"
+    },
+    {
+      "controller": "Email",
+      "icon": "bi bi-envelope",
+      "text": "Email",
+      "children": [
+        {
+          "controller": "Email",
+          "action": "Inbox",
+          "text": "Inbox"
+        },
+        {
+          "controller": "Email",
+          "action": "Compose",
+          "text": "Compose"
+        },
+        {
+          "controller": "Email",
+          "action": "Detail",
+          "text": "Detail"
+        }
+      ]
+    },
+    {
+      "is_divider": true
+    },
+    {
+      "text": "Components",
+      "is_header": true
+    },
+    {
+      "controller": "Widgets",
+      "action": "Index",
+      "icon": "bi bi-columns-gap",
+      "text": "Widgets"
+    },
+    {
+      "controller": "Pos",
+      "icon": "bi bi-bag-check",
+      "text": "POS System",
+      "highlight": true,
+      "children": [
+        {
+          "controller": "Pos",
+          "action": "CustomerOrder",
+          "text": "Customer Order"
+        },
+        {
+          "controller": "Pos",
+          "action": "KitchenOrder",
+          "text": "Kitchen Order"
+        },
+        {
+          "controller": "Pos",
+          "action": "CounterCheckout",
+          "text": "Counter Checkout"
+        },
+        {
+          "controller": "Pos",
+          "action": "TableBooking",
+          "text": "Table Booking"
+        },
+        {
+          "controller": "Pos",
+          "action": "Menu Stock",
+          "text": "MenuStock"
+        }
+      ]
+    },
+    {
+      "controller": "UIKits",
+      "icon": "bi bi-controller",
+      "text": "UI Kits",
+      "children": [
+        {
+          "controller": "UIKits",
+          "action": "Bootstrap",
+          "text": "Bootstrap"
+        },
+        {
+          "controller": "UIKits",
+          "action": "Buttons",
+          "text": "Buttons"
+        },
+        {
+          "controller": "UIKits",
+          "action": "Card",
+          "text": "Card"
+        },
+        {
+          "controller": "UIKits",
+          "action": "Icons",
+          "text": "Icons"
+        },
+        {
+          "controller": "UIKits",
+          "action": "ModalNotifications",
+          "text": "Modal & Notifications"
+        },
+        {
+          "controller": "UIKits",
+          "action": "Typography",
+          "text": "Typography"
+        },
+        {
+          "controller": "UIKits",
+          "action": "TabsAccordions",
+          "text": "Tabs & Accordions"
+        }
+      ]
+    },
+    {
+      "controller": "Forms",
+      "icon": "bi bi-pen",
+      "text": "Forms",
+      "children": [
+        {
+          "controller": "Forms",
+          "action": "FormElements",
+          "text": "Form Elements"
+        },
+        {
+          "controller": "Forms",
+          "action": "FormPlugins",
+          "text": "Form Plugins"
+        },
+        {
+          "controller": "Forms",
+          "action": "Wizards",
+          "text": "Wizards"
+        }
+      ]
+    },
+    {
+      "controller": "Tables",
+      "icon": "bi bi-grid-3x3",
+      "text": "Tables",
+      "children": [
+        {
+          "controller": "Tables",
+          "action": "TableElements",
+          "text": "Table Elements"
+        },
+        {
+          "controller": "Tables",
+          "action": "TablePlugins",
+          "text": "Table Plugins"
+        }
+      ]
+    },
+    {
+      "controller": "Charts",
+      "icon": "bi bi-pie-chart",
+      "text": "Charts",
+      "children": [
+        {
+          "controller": "Charts",
+          "action": "ChartJs",
+          "text": "Chart.js"
+        },
+        {
+          "controller": "Charts",
+          "action": "ApexchartsJs",
+          "text": "Apexcharts.js"
+        }
+      ]
+    },
+    {
+      "controller": "Map",
+      "action": "Index",
+      "icon": "bi bi-compass",
+      "text": "Map"
+    },
+    {
+      "controller": "Layout",
+      "icon": "bi bi-layout-sidebar",
+      "text": "Layout",
+      "children": [
+        {
+          "controller": "Layout",
+          "action": "StarterPage",
+          "text": "Starter Page"
+        },
+        {
+          "controller": "Layout",
+          "action": "FixedFooter",
+          "text": "Fixed Footer"
+        },
+        {
+          "controller": "Layout",
+          "action": "FullHeight",
+          "text": "Full Height"
+        },
+        {
+          "controller": "Layout",
+          "action": "FullWidth",
+          "text": "Full Width"
+        },
+        {
+          "controller": "Layout",
+          "action": "BoxedLayout",
+          "text": "Boxed Layout"
+        },
+        {
+          "controller": "Layout",
+          "action": "CollapsedSidebar",
+          "text": "Collapsed Sidebar"
+        }
+      ]
+    },
+    {
+      "controller": "Pages",
+      "icon": "bi bi-collection",
+      "text": "Pages",
+      "children": [
+        {
+          "controller": "Pages",
+          "action": "ScrumBoard",
+          "text": "Scrum Board"
+        },
+        {
+          "controller": "Pages",
+          "action": "Products",
+          "text": "Products"
+        },
+        {
+          "controller": "Pages",
+          "action": "ProductDetails",
+          "text": "Product Details"
+        },
+        {
+          "controller": "Pages",
+          "action": "Orders",
+          "text": "Orders"
+        },
+        {
+          "controller": "Pages",
+          "action": "OrderDetails",
+          "text": "Order Details"
+        },
+        {
+          "controller": "Pages",
+          "action": "Gallery",
+          "text": "Gallery"
+        },
+        {
+          "controller": "Pages",
+          "action": "SearchResults",
+          "text": "Search Results"
+        },
+        {
+          "controller": "Pages",
+          "action": "ComingSoonPage",
+          "text": "Coming Soon Page"
+        },
+        {
+          "controller": "Pages",
+          "action": "ErrorPage",
+          "text": "404 Error Page"
+        },
+        {
+          "controller": "Pages",
+          "action": "Login",
+          "text": "Login"
+        },
+        {
+          "controller": "Pages",
+          "action": "Register",
+          "text": "Register"
+        },
+        {
+          "controller": "Pages",
+          "action": "Messenger",
+          "text": "Messenger"
+        },
+        {
+          "controller": "Pages",
+          "action": "DataManagement",
+          "text": "Data Management"
+        }
+      ]
+    },
+    {
+      "is_divider": true
+    },
+    {
+      "text": "Users",
+      "is_header": true
+    },
+    {
+      "controller": "Profile",
+      "action": "Index",
+      "icon": "bi bi-people",
+      "text": "Profile"
+    },
+    {
+      "controller": "Calendar",
+      "action": "Index",
+      "icon": "bi bi-calendar4",
+      "text": "Calendar"
+    },
+    {
+      "controller": "Settings",
+      "action": "Index",
+      "icon": "bi bi-gear",
+      "text": "Settings"
+    },
+    {
+      "controller": "Helper",
+      "action": "Index",
+      "icon": "bi bi-gem",
+      "text": "Helper"
+    }
+  ]
+}
